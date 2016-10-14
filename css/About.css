@@ -1,8 +1,4 @@
-body{
-	/*background: url(../image/img_2.jpg)no-repeat;
-	background-size: cover;*/
-	
-}
+
 .clearfix:after{
 
 	content: "";
@@ -45,7 +41,7 @@ p{
 
 
 .content2{
-	background: url(../image/about_2.jpg)no-repeat;
+	background: url(./image/about_2.jpg)no-repeat;
 	background-size: cover;
 	height: 500px;
 }
