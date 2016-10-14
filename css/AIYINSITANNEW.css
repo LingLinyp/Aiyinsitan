@@ -1,0 +1,127 @@
+body{
+
+font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+
+}
+h1{
+	text-align: center;
+	margin-bottom:30px;
+}
+p{
+	text-align: justify;
+	font-size:1.2em;
+  letter-spacing: 2px;
+  line-height: 1.7;
+}
+.btn {
+  border-radius:8px 8px;
+  color:#ff9900;
+  font-weight:600;
+  padding:10px 25px;
+  margin-top:30px;
+  background: 0 0!important;
+  border:none;
+}
+.btn:hover {
+  background-color:black !important;
+  color:#fff;
+}
+/*welcome*/
+.welcome .container{
+	margin-top:30px;
+	border-bottom:1px solid #cccccc;
+}
+
+/*blog*/
+
+.blog .container {
+  padding-bottom:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align:center;
+	border-bottom:1px solid #cccccc;
+}
+.blog .box {
+  height: 380px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top:30px;
+}
+
+
+.blog img {
+  -webkit-transition: transform 2s ease, opacity 0.6s ease;
+  -moz-transition: transform 2s ease, opacity 0.6s ease;
+  -ms-transition: transform 2s ease, opacity 0.6s ease;
+  -o-transition: transform 2s ease, opacity 0.6s ease;
+  transition: transform 2s ease, opacity 0.6s ease;
+  opacity: 0.7;
+
+
+}
+
+.box:hover img{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.blog .content {
+  color: #fff;
+  bottom: -30px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  background-color:rgba(0,0,0,0.6);
+  letter-spacing: 2px;
+}
+
+.blog .content h1 {  
+  margin-bottom: 25px;
+  font-size:22px;
+ 
+}
+.blog span {
+  font-size: 16px;
+}
+
+.box:hover .content {
+  bottom:1px;
+}
+
+
+
+/*team*/
+.team{
+	margin-bottom:50px;
+	text-align:center;
+}
+.team img{
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+}
+.team .row p{
+	font-size: 18px;
+	text-align: center;
+	padding-top:10px;
+
+}
+.team .row{
+  margin-top: 50px;
+}
+
+/*footer*/
+
+
+	
+
+

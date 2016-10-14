@@ -1,0 +1,221 @@
+h2{
+	margin:30px 0;
+}
+h1 {
+    color: #FFF;
+    text-shadow: 5px 1px 5px #000;
+	text-align:center;
+	font-size: 40px;
+	letter-spacing: 1px;
+	
+}
+
+.counter{
+	margin:30px auto;
+
+}
+.item{
+	font-size:18px;
+	border-bottom: 1px solid #C8C8C8;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+.item a:link,a:visited{
+	text-decoration:none;
+	color:#f80;
+	font-weight: 300;
+}
+.item a:hover{
+	text-decoration: underline;
+}
+#menu {
+	position:fixed;
+	top:100px;
+	padding-bottom:200px;
+	left: 50%;
+	margin-left: 540px;
+	visibility: visible;
+
+	}
+
+#menu ul li a {
+	display: block;
+	margin:5px 0;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #333;
+	width: 80px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	list-style: none;
+	padding:10px 0;
+
+}
+
+
+#menu ul li a:hover,
+#menu ul li a.current
+{
+	color : #fff;
+	background: #ff8000;
+	border-radius:5px;
+}
+.head{
+    padding:250px 0 220px 0;
+    background: url(../image/img_13.jpg) no-repeat center ;
+    background-size: cover;
+	margin-bottom:50px;
+	color: white;
+}
+#item1 p{
+	font-size: 25px;
+
+}
+#item1 .fa {
+	font-size:32px;
+	color:#f80;
+	margin-right: 20px;
+}
+#item2 li{
+	padding:10px;
+	list-style: square;
+
+}
+
+#item4 img{
+	width:100%;
+}
+#item4 li{
+	font-weight: 600;
+	font-size: 1em;
+	list-style: none;
+	padding:5px 0;
+}
+.panel {
+	 border-radius: 5px;
+	 border:none;
+     box-shadow: none;
+}
+
+.panel {
+	margin-top:50px;
+}
+.panel p {
+	padding-bottom:20px;
+}
+.panel-body {
+	margin-left:30px;
+}
+.panel-title {
+	color:#ff8000;
+	font-size:1.4em;
+}
+.panel-group {
+	margin-top:50px;
+}
+.panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: #ff8000;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+.accordion-toggle { display: block; }
+
+#item5 h4{
+	margin:20px 0;
+	font-weight: 600;
+
+}
+
+.shenming {
+	color:#f80;
+	background-color:#F0F0F0 ;
+	margin:100px 0 30px 0;
+	padding:10px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+.shenming span{
+	color:#989898 ;
+}
+
+.mainbody span a{
+    color: #f80;
+    padding: 0 10px;
+    font-size:18px;
+
+}
+#download{
+margin-top:30px;
+color:#fff;
+background-color:#f80;
+border:none;
+font-size:16px;
+margin-bottom: 50px;
+}
+#download:hover{
+background-color:#333;
+color:#fff;
+
+}
+
+/*route_guide*/
+.clearfix:after{
+
+	content: "";
+	clear: both;
+	display: block;
+}
+.wrapper {
+	margin-bottom: 50px;
+}
+
+
+.wrapper ul li{
+	letter-spacing: 1px;
+	font-size: 16px;
+	list-style: square;
+	padding:8px 0;
+}
+.card{
+	float:left;
+	width:50%;
+	min-height: 320px;
+	padding:20px;
+	box-sizing:border-box; 
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+}
+.card:first-child{
+	background-color:rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background-color:rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+	background-color:rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+	background-color:rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+	background-color:rgba(0,0,0,0.20);
+}
+.card:nth-child(6){
+	background-color:rgba(0,0,0,0.24);
+}
+.card:nth-child(7){
+	background-color:rgba(0,0,0,0.24);
+}
+.card:nth-child(8){
+	background-color:rgba(0,0,0,0.28);
+}
+
