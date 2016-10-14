@@ -20,6 +20,9 @@ h1 {
 	line-height: 30px;
 	letter-spacing: 1px;
 }
+.card a{
+	color:#f80;
+}
 .item a:link,a:visited{
 	text-decoration:none;
 	color:#f80;
